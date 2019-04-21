@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Sample Link Post"
+published: false
 excerpt: "Try click on the link icon."
 categories: [link post]
 link: http://renyuanz.github.io
