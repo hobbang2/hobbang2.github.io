@@ -5,7 +5,7 @@
 #
 title: Hobbang
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: Majors in Mathematics and Computer Engineering.
 url: # the base hostname & protocol for your site
 keywords: ["blog", "jekyll"]
 
@@ -14,7 +14,7 @@ keywords: ["blog", "jekyll"]
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Asia/Seoul
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
