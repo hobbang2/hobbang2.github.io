@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Yujin!"
+published: false
 date:   2015-08-18 15:07:19
 categories: [Algorithm]
 comments: true
