@@ -34,9 +34,9 @@ ar: the colors of each sock
 첫 줄에 정수 n 이 주어지고, 다음 줄에 n개의 정수(양말의 색깔을 표현)가 배열 ar에 담아집니다.
 
 #### Constraints
-$$ 1<= n <= 100 $$
+$$ 1 \leq n \leq 100 $$
 
-$$ 1<= ar[i] <= 100 where 0 <= i < n $$
+$$ 1 \leq ar[i] \leq 100 where 0 \leq i < n $$
 
 수의 범위를 걱정할 일은 없겠네요 ㅎㅎ
 
