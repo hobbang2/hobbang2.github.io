@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "[hackerrank] Sock Merchant"
-published: false
 date:   2019-04-25 21:31:19
 categories: [PS]
 comments: true
