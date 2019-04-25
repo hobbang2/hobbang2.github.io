@@ -9,7 +9,7 @@ image:
 ---
 
 ## **이번 포스팅에서 알아볼 내용**
-### [easy-Sock Merchant](https://bit.ly/2W0L7iN)
+### [[easy]Sock Merchant](https://bit.ly/2W0L7iN)
 <!--more-->
 ### [1. 문제 소개](###1.-문제-소개)
 
