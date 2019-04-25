@@ -53,7 +53,7 @@ ar은 리스트이므로, ar 안의 원소를 돌면서 각각의 개수를 세�
 의 양말로는 한 쪽 발 밖에 신지 못하기 때문이에요.
 
 #### 코드 설명 [Python3]
-1) 
+1) default dictionary
 ```
 from collections import defaultdict
 dic_sock = defaultdict(lambda:0)
