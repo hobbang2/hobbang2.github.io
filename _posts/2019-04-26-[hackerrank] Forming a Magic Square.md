@@ -121,7 +121,7 @@ cout << vec2.size(); // 9
 ```
   
 #### 코드 [C/C++]
-```c++
+```cpp
 // magic square 인지 확인합니다.
 bool isMagicSquare(const vector<int> & tmp_num) {
   int magic_value = 0;
