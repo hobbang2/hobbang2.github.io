@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[hackerrank] Sock Merchant"
+title:  "[hackerrank] Forming a Magic Square"
 date:   2019-04-26 14:26:19
 categories: [PS]
 comments: true
@@ -26,25 +26,25 @@ N x N 행렬이 주어집니다.
 
 예를 들어, 
 
-5 3 4 
+    5 3 4 
 
-1 5 8        
+    1 5 8        
 
-6 4 2 
+    6 4 2 
 
 에서 1행 1열의 5를 8로, 2행 3열의 8을 9로, 3행 2열의 4를 7로 바꾸어주면 
 
-8 3 4
+    8 3 4
 
-1 5 9
+    1 5 9
 
-6 7 2
+    6 7 2
 
 가 되고, 가로, 세로, 대각선의 합이 모두 15로 동일하게 됩니다. 
 
 이런 정사각행렬을 `magic square` 라고 부릅니다.
 
-이렇게 주어진 정사각행렬에서 숫자를 바꾸어 'magic square'가 되도록 만들어주면 됩니다. 
+이렇게 주어진 정사각행렬에서 숫자를 바꾸어 `magic square`가 되도록 만들어주면 됩니다. 
 
 그런데, 기왕이면 숫자의 변화 폭이 작으면 좋겠어요 ! 
 
