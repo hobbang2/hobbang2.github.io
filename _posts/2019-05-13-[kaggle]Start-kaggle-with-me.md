@@ -29,11 +29,11 @@ image:
 무작정 시작하기 보다는, 잘하는 사람의 kernel을 필사하는 것부터 하기로 했다.
 
 ### 입문
-[![quick and draw!](./post_image/quick_draw.jpeg)](https://bit.ly/2JiHAtt)
+[![quick and draw!](./post_image/quick_draw.JPG)](https://bit.ly/2JiHAtt)
 
 ### 커널 필사 
 1. [Getting Started: Viewing Quick, Draw! Doodles, etc](https://bit.ly/2vY8xKi)
-![quick_draw_1_result](./post_image/quick_draw_1_result.jpeg)
+![quick_draw_1_result](./post_image/quick_draw_1_result.JPG)
 
 - 파이썬에서 data를 읽고, 분석할 준비
 - raw drawing data를 simple 하게 바꾸어줌 ( ex. 8개의 점으로 연결된 직선을 2개의 점으로 연결된 직선으로 갼결화)
