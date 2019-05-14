@@ -6,36 +6,46 @@ published: false
 categories: [kaggle]
 comments: true
 image:
-  feature: https://cdn.pixabay.com/photo/2014/08/01/15/49/typewriter-407695_1280.jpg
+  feature: ./post_image/kaggle.png
 ---
 
 ## **이번 포스팅에서 알아볼 내용**
-### [[kaggle]캐글 시작하기](https://bit.ly/2TtLl0H)
+### [[kaggle]캐글 시작하기]
 <!--more-->
 다른 사람이 한 Big Data 분석 결과도 볼 수 있고, 잘하면 상금까지 거머쥘 수 있는 kaggle...!
 
 미루고 미루어 왔던 데이터 분석을 이제야 시도해보려고 한다. 
 
+아래는 참고한 포스팅들 - 감사합니다(__) -
+
+1. [Kaggle에 대해서 알아보자!!](https://bit.ly/2vY5cuN)
+
+2. [Kaggle에서 얻을 수 있는건?](https://bit.ly/2Vo9oya)
+
+여차저차해서 Kaggle에 가입까지 하고, 첫 kernel을 만들었다. 
+
+두번째 글에서 인용하자면 `모방은 창조의 어머니` 동의한다 ^_^
+
+무작정 시작하기 보다는, 잘하는 사람의 kernel을 필사하는 것부터 하기로 했다.
+
+### 입문
+[![quick and draw!](./post_image/quick_draw.jpeg)](https://bit.ly/2JiHAtt)
+
+### 커널 필사 
+1. [Getting Started: Viewing Quick, Draw! Doodles, etc](https://bit.ly/2vY8xKi)
+![quick_draw_1_result](./post_image/quick_draw_1_result.jpeg)
+
+- 파이썬에서 data를 읽고, 분석할 준비
+- raw drawing data를 simple 하게 바꾸어줌 ( ex. 8개의 점으로 연결된 직선을 2개의 점으로 연결된 직선으로 갼결화)
+- 정해진 format에서 prediction을 포함한 submission을 만드는 방법
+
+string 값으로 저장된 drawing data를 list로 바꾸어주기 위해 ast.literal_eval
+
+오차 범위 내에서 직선을 간결하게 해주기 위해 [simplification](https://bit.ly/30fCtPY).cutil라이브러리 내의 simplify_coords
+
+를 사용합니다. 
 
 
-문자열을 구성하는 문자는 알파벳 대문자, 소문자 또는 숫자입니다. 
-
-이 문자열에서 대문자는 소문자로, 소문자는 대문자로 바꿀 수 있습니다. 
-
-예를 들어, 
-
-- 문자열 'ab' 가 주어졌을 때,
-- 둘다 안바꿀 때 'ab'
-- a -> A 로 바꾸었을 때 'Ab'
-- b -> B 로 바꾸었을 때 'aB'
-- a -> A, b -> B 로 바꾸었을 때 'AB'
-
-총 4개의 문자열을 만들 수 있습니다. 
-
-주어진 문자열에서 위와 같은 방법으로 바꾸어 나가면서 `만들어지는 문자열의 개수`를 세아려주시면 됩니다.
-
-#### Input data
-string S 가 주어집니다. 
 
 #### Constraints
 
