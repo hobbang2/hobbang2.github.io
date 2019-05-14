@@ -6,7 +6,7 @@ published: true
 categories: [kaggle]
 comments: true
 image:
-  feature: ./post_image/kaggle.PNG
+  feature: ./post_image/Kaggle_logo.png
 ---
 
 ## **이번 포스팅에서 알아볼 내용**
