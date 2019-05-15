@@ -6,7 +6,7 @@ published: true
 categories: [kaggle]
 comments: true
 image:
-  feature: ./post_image/Kaggle_logo.png
+  feature: https://bit.ly/2VEz66k
 ---
 
 ## **이번 포스팅에서 알아볼 내용**
@@ -29,7 +29,7 @@ image:
 무작정 시작하기 보다는, 잘하는 사람의 kernel을 필사하는 것부터 하기로 했다.
 
 ### 입문
-[![quick and draw!](./post_image/quick_draw.JPG)](https://bit.ly/2JiHAtt)
+[![quick and draw!](https://bit.ly/2Q6QHxV)](https://bit.ly/2JiHAtt)
 
 ### 커널 필사 
 #### 1. [Getting Started: Viewing Quick, Draw! Doodles, etc](https://bit.ly/2vY8xKi)
